@@ -414,7 +414,7 @@
           </address>
         </div>
         <div class="contacts-footer">
-          <h3 class="foter-title">ПРИСОЕДИНЯЙТЕСЬ</h3>
+          <h3 class="footer-title">ПРИСОЕДИНЯЙТЕСЬ</h3>
           <ul class="contacts-nav list">
             <li>
               <a class="footer-icon" href="">
@@ -470,7 +470,7 @@
     <!-- Модальное окно -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal-window">
-        <button type="button" class="button-modal" data-modal-close>
+        <button type="button" class="modal-close-button" data-modal-close>
           <svg width="11" height="11">
             <use href="./images/sprite.svg#icon-vector"></use>
           </svg>
@@ -487,7 +487,11 @@
                 name="user_name"
               />
               <svg width="18" height="18" class="modal-form-input-icon">
-                <use href="./images/sprite.svg#icon-name"></use>
+                <use
+                  width="12"
+                  height="12"
+                  href="./images/sprite.svg#icon-name"
+                ></use>
               </svg>
             </span>
           </label>
@@ -502,20 +506,28 @@
                 title="0123456789"
               />
               <svg width="18" hieght="18" class="modal-form-input-icon">
-                <use href="./images/sprite.svg#icon-phone"></use>
+                <use
+                  width="13"
+                  height="13"
+                  href="./images/sprite.svg#icon-phone"
+                ></use>
               </svg>
             </span>
           </label>
           <label class="modal-form-filed"
             ><span class="modal-form-field-desc">Почта</span>
             <span class="modal-form-input-wrapper">
-              <input class="modal-form-input" type="text" name="user_mail" />
+              <input class="modal-form-input" type="email" name="user_mail" />
               <svg width="18" hieght="18" class="modal-form-input-icon">
-                <use href="./images/sprite.svg#icon-email"></use>
+                <use
+                  width="15"
+                  height="12"
+                  href="./images/sprite.svg#icon-email"
+                ></use>
               </svg>
             </span>
           </label>
-          <label class="modal-form-filed"
+          <label class="modal-form-textarea-label"
             ><span class="modal-form-field-desc">Комментарий</span>
             <textarea
               name="user_massage"
