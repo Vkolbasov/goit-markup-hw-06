@@ -642,7 +642,7 @@ img {
 .modal-window {
   position: absolute;
   width: 528px;
-  height: 588px;
+  min-height: 581px;
   padding: 40px;
   top: 50%;
   left: 50%;
@@ -776,6 +776,7 @@ img {
   align-items: center;
   position: relative;
   cursor: pointer;
+  line-height: calc(24 / 14);
 }
 
 .modal-form-check {
